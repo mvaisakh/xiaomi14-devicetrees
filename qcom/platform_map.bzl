@@ -675,9 +675,9 @@ _platform_map = {
     "houji": {
         "dtb_list": [
             # keep sorted
-            {"name": "pineapple-v2.dtb"},
+            {"name": "pineapple.dtb"},
             {
-                "name": "pineapplep-v2.dtb",
+                "name": "pineapplep.dtb",
                 "apq": True,
             },
         ],

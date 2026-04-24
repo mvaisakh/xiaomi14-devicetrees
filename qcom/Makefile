@@ -17,8 +17,8 @@ DTC_INCLUDE += $(srctree)/../vendor/qcom/opensource/synx-kernel
 
 ifneq ($(CONFIG_ARCH_QTI_VM), y)
 
-PINEAPPLE_BASE_DTB += pineapple-v2.dtb pineapple-qcm.dtb
-PINEAPPLE_APQ_BASE_DTB += pineapplep-v2.dtb pineapplep-sg-v2.dtb pineappleq-v2.dtb pineapplep-qcs.dtb
+PINEAPPLE_BASE_DTB += pineapple.dtb pineapple-v2.dtb pineapple-qcm.dtb
+PINEAPPLE_APQ_BASE_DTB += pineapplep.dtb pineapplep-v2.dtb pineapplep-sg-v2.dtb pineappleq-v2.dtb pineapplep-qcs.dtb
 
 PINEAPPLE_BOARDS += \
 		 pineapple-mtp-overlay.dtbo \
